@@ -7,25 +7,27 @@
 body {
     margin-top: 100px;
 }
+
 main.container {
-    background-color: aliceblue;
-    width: 70%;
-    height: 60vh;
-    padding: 10px;
-    margin: auto;
+    /* giv background width heigh,
+    padding and center it horizontally */
+   
+
+    /* what is this doing? */
     overflow-y: scroll;
 }
 .sticky-section {
     margin-top: 10px;
     border-bottom: solid;
 }
+
 .sticky {
     background-color: aqua;
     height: 50px;
-    position: sticky;
-    top: 0;
+    /* make it sticky, and you need to define top: */
 }
+
 ul {
-    list-style: none;
+    /* how to remove the discs from style? */
     margin: 10px 0 10px 10px;
 }
